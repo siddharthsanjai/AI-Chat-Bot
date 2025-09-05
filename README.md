@@ -106,32 +106,6 @@ Assistant: Quantum computing is a revolutionary computing technology that uses q
 - Conversation export functionality
 - Custom system prompts
 
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Acknowledgments
-
-- Built with [Perplexity AI](https://www.perplexity.ai/) API
-- Uses the OpenAI Python client library
-- Inspired by the need for simple AI integration examples
-
-## Support
-
-If you encounter issues or have questions:
-- Check the [Perplexity API Documentation](https://docs.perplexity.ai/)
-- Open an issue on this repository
-- Ensure your API key is valid and has sufficient credits
-
----
 
 **Author**: Siddharth Sanjai  
 **Purpose**: Learning and exploring AI technology integration
