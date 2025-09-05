@@ -1,13 +1,15 @@
 import os
 from openai import OpenAI
 
-key = os.getenv("OPENAI_API_KEY")
+key = "xxxxxxxx"
 
 messages = []
+client = OpenAI(api_key=key, base_url="https://api.perplexity.ai")
 
-client = OpenAI(
-    api_key=key,
-)
+
+
+
+
 
 def completion(message):
     global messages
@@ -17,12 +19,28 @@ def completion(message):
             "content": message,
         }
     )
-    chat_completion = client.chat.completions.create(messages=messages,
-        model="gpt-4o",
+
+
+    response = client.chat.completions.create(messages=messages,
+        model="sonar-pro",
     )
-    print(chat_completion)
+    # print(chat_completion)
+    message = {
+        "role": "assistant",
+        "content": response.choices[0].message.content
+    }
     
+    messages.append(message)
+    print(f"Assistant: {response.choices[0].message.content}")
 
 if __name__ == "__main__":
-    user_question = input("Hi I am BAWA, How may I help you?")
+    user_question = input("Hi I am Your Assistant, How may I help you?\n")
     completion(user_question)
+
+print(messages)
+
+
+
+
+
+
