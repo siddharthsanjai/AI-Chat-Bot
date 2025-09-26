@@ -62,14 +62,7 @@ Hi I am Your Assistant, How may I help you?
 Assistant: Quantum computing is a revolutionary computing technology that uses quantum mechanical phenomena...
 ```
 
-## Code Structure
 
-```python
-# Core components:
-- OpenAI client initialization with Perplexity base URL
-- Global messages list for conversation history
-- completion() function for API interaction
-- Main execution flow with user input handling
 ```
 
 ### Key Functions
