@@ -1,4 +1,4 @@
-# Perplexity AI Chat Assistant
+# AI Chat Assistant
 
 A simple Python command-line chat assistant that leverages Perplexity AI's API to provide intelligent responses. This script demonstrates how to integrate with Perplexity's "sonar-pro" model using the OpenAI client library, maintaining conversation context throughout the interaction.
 
